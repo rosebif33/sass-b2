@@ -1,0 +1,22 @@
+$myVariable:blue;
+$danger: #e74c3c;
+$success: green;
+$dark: grey;
+
+
+
+h1{
+    color: $myVariable;
+}
+
+.btn{
+    padding: 20px;
+    border-radius: 20px;
+    color: rgb(228, 129, 228);
+    font-size: 25px;
+    
+    &:hover{
+        background: lightblue;
+    }
+}
+

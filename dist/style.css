@@ -1,0 +1,15 @@
+h1 {
+  color: blue;
+}
+
+.btn {
+  padding: 20px;
+  border-radius: 20px;
+  color: #e481e4;
+  font-size: 25px;
+}
+.btn:hover {
+  background: lightblue;
+}
+
+/*# sourceMappingURL=style.css.map */
