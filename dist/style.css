@@ -1,15 +1,17 @@
-h1 {
-  color: blue;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 31 |         background: $warning;
+ *    |                     ^^^^^^^^
+ *    '
+ *   src/main.scss 31:21  root stylesheet */
 
-.btn {
-  padding: 20px;
-  border-radius: 20px;
-  color: #e481e4;
-  font-size: 25px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 31 \2502          background: $warning;\a    \2502                      ^^^^^^^^\a    \2575 \a   src/main.scss 31:21  root stylesheet";
 }
-.btn:hover {
-  background: lightblue;
-}
-
-/*# sourceMappingURL=style.css.map */

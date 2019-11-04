@@ -1,7 +1,8 @@
-$myVariable:blue;
+$myVariable:lightblue;
 $danger: #e74c3c;
 $success: green;
 $dark: grey;
+$light: beige;
 
 
 
@@ -14,9 +15,23 @@ h1{
     border-radius: 20px;
     color: rgb(228, 129, 228);
     font-size: 25px;
+    border-color: lightblue;
+    border-width: 3px;
     
     &:hover{
         background: lightblue;
     }
+
+    &-danger{
+        background: $danger;
+        color: $light;
+    }
+
+    &-warning{
+        background: $warning;
+        color: $light;
+    }
+
+
 }
 
